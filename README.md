@@ -5,7 +5,7 @@
 #### to compile:
 ##### $ g++ substitutionCypher.hpp substitutionCypher.cpp substitutionCypherEncrypter.cpp -o subCypherEncrypter.exe
 #### to use:
-##### $ ./subCypher.exe <inputAlphabeth> <cypherAlphabeth>
+##### $ ./subCypher.exe inputAlphabeth cypherAlphabeth
 ```
 $ ./subCypherEncrypter.exe abcdefghijklmnopqrstuvwxyz ZYXWVUTSRQPONMLKJIHGFEDCBA
 |subCypherEncrypter by https://github.com/jjackbauer|
@@ -22,7 +22,7 @@ $ ./subCypherEncrypter.exe abcdefghijklmnopqrstuvwxyz ZYXWVUTSRQPONMLKJIHGFEDCBA
 #### to compile:
 ##### $ g++ substitutionCypher.hpp substitutionCypher.cpp substitutionCypherDecrypter.cpp -o subCypherDecrypter.exe
 #### to use: 
-##### $ ./subCypherDecrypter.exe <inputAlphabeth> <cypherAlphabeth>
+##### $ ./subCypherDecrypter.exe inputAlphabeth cypherAlphabeth
 
 ```
 $ ./subCypherDecrypter.exe abcdefghijklmnopqrstuvwxyz ZYXWVUTSRQPONMLKJIHGFEDCBA
