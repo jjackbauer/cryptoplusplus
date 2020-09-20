@@ -1,5 +1,5 @@
 # cryptoplusplus
-## Library for cryptography methods in C++
+## Library for cryptography and cryptoanalysis methods in C++
 
 ### Substitution Cypher Encrypter
 #### to compile:
