@@ -3,7 +3,7 @@
 int main( int argc, char *argv[ ])
 {
     if(argc == 3)
-    {
+    {   std::cout<<"|***subCypherEncrypter by https://github.com/jjackbauer***|"<<std::endl;
         std::vector<char> inputAlpha, cypherAlfa;
 
         for(int  c = 0; argv[1][c] ; c++)
@@ -17,7 +17,7 @@ int main( int argc, char *argv[ ])
 
         while(true)
         {   std::string message;
-            std::cout<<"?>";
+            std::cout<<std::endl<<"?>";
             std::getline(std::cin, message);
             std::string  encryptedMessage;
             cypher.encryptMessage(message,encryptedMessage);
