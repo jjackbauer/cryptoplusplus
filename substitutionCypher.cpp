@@ -1,11 +1,15 @@
 #include "substitutionCypher.hpp"
-
+substitutionCypher::substitutionCypher()
+{
+    return;
+}
 substitutionCypher::substitutionCypher(std::vector<char> & inputAlphabeth,std::vector<char> & cypherAlphabeth)
 {
     if(inputAlphabeth.size() == cypherAlphabeth.size())
     {
-        this->inputAlphabeth = inputAlphabeth;
-        this->cypherAlphabeth = cypherAlphabeth;
+        setInputAlphabeth(inputAlphabeth);
+        setCypherAlphabeth(cypherAlphabeth);
+        
     }
     else
     {
@@ -39,4 +43,12 @@ std::string & substitutionCypher::decryptMessage(std::string & encryptedText,std
 
     return plainText;
 
+}
+void substitutionCypher::setInputAlphabeth(std::vector<char> & inputAlphabeth)
+{
+    this->inputAlphabeth = inputAlphabeth;
+}
+void substitutionCypher::setCypherAlphabeth(std::vector<char> & cypherAlphabeth)
+{
+    this->cypherAlphabeth = cypherAlphabeth;
 }
