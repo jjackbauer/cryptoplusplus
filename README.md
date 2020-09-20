@@ -2,8 +2,10 @@
 ## Library for cryptography methods in C++
 
 ### Substitution Cypher Encrypter
-#### to compile $ g++ substitutionCypher.hpp substitutionCypher.cpp substitutionCypherEncrypter.cpp -o subCypherEncrypter.exe
-#### to use  $ ./subCypher.exe <inputAlphabeth> <cypherAlphabeth>
+#### to compile:
+##### $ g++ substitutionCypher.hpp substitutionCypher.cpp substitutionCypherEncrypter.cpp -o subCypherEncrypter.exe
+#### to use:
+##### $ ./subCypher.exe <inputAlphabeth> <cypherAlphabeth>
 ```
 $ ./subCypherEncrypter.exe abcdefghijklmnopqrstuvwxyz ZYXWVUTSRQPONMLKJIHGFEDCBA
 |subCypherEncrypter by https://github.com/jjackbauer|
@@ -17,9 +19,9 @@ $ ./subCypherEncrypter.exe abcdefghijklmnopqrstuvwxyz ZYXWVUTSRQPONMLKJIHGFEDCBA
 
 ```
 ### Substitution Cypher Decrypter
-#### to compile
+#### to compile:
 ##### $ g++ substitutionCypher.hpp substitutionCypher.cpp substitutionCypherDecrypter.cpp -o subCypherDecrypter.exe
-#### to use  
+#### to use: 
 ##### $ ./subCypherDecrypter.exe <inputAlphabeth> <cypherAlphabeth>
 
 ```
