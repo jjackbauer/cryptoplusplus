@@ -17,8 +17,10 @@ $ ./subCypherEncrypter.exe abcdefghijklmnopqrstuvwxyz ZYXWVUTSRQPONMLKJIHGFEDCBA
 
 ```
 ### Substitution Cypher Decrypter
-#### to compile $ g++ substitutionCypher.hpp substitutionCypher.cpp substitutionCypherDecrypter.cpp -o subCypherDecrypter.exe
-#### to use  $ ./subCypherDecrypter.exe <inputAlphabeth> <cypherAlphabeth>
+#### to compile
+##### $ g++ substitutionCypher.hpp substitutionCypher.cpp substitutionCypherDecrypter.cpp -o subCypherDecrypter.exe
+#### to use  
+##### $ ./subCypherDecrypter.exe <inputAlphabeth> <cypherAlphabeth>
 
 ```
 $ ./subCypherDecrypter.exe abcdefghijklmnopqrstuvwxyz ZYXWVUTSRQPONMLKJIHGFEDCBA
