@@ -10,13 +10,14 @@ class substitutionCypher
     private:
         std::vector<char> inputAlphabeth;
         std::vector<char> cypherAlphabeth;
+        void          setInputAlphabeth(std::vector<char> & inputAlphabeth);
+        void          setCypherAlphabeth(std::vector<char> & cypherAlphabeth);
     public:
                      substitutionCypher();
                      substitutionCypher(std::vector<char> & inputAlphabeth,std::vector<char> & cypherAlphabeth);
        std::string & encryptMessage(std::string & plainText,std::string & encryptedText);
        std::string & decryptMessage(std::string & encryptedText,std::string & plainText);
-       void          setInputAlphabeth(std::vector<char> & inputAlphabeth);
-       void          setCypherAlphabeth(std::vector<char> & cypherAlphabeth);
+       
 };
 
 #endif /*SUBSTITUTIONCYPHER_HPP_*/
