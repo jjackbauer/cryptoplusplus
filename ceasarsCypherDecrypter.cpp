@@ -4,7 +4,7 @@
 int main( int argc, char *argv[ ])
 {
     if(argc == 3)
-    {   std::cout<<"|***cesCypherDecrypter by https://github.com/jjackbauer***|"<<std::endl;
+    {   std::cout<<"|cesCypherDecrypter by jjackbauer @https://github.com/jjackbauer/cryptoplusplus|"<<std::endl;
         std::vector<char> inputAlpha, cypherAlfa;
 
         for(int  c = 0; argv[1][c] ; c++)

@@ -3,7 +3,7 @@
 int main( int argc, char *argv[ ])
 {
     if(argc == 3)
-    {   std::cout<<"|***subCypherEncrypter by https://github.com/jjackbauer***|"<<std::endl;
+    {   std::cout<<"|subCypherEncrypter by jjackbauer @https://github.com/jjackbauer/cryptoplusplus|"<<std::endl;
         std::vector<char> inputAlpha, cypherAlfa;
 
         for(int  c = 0; argv[1][c] ; c++)
