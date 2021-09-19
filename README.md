@@ -80,7 +80,7 @@ $ ./cesCypherDecrypter.exe abcdefghijklmnopqrstuvwxyz 3
 ##### ./vigenereCypherEncrypter.exe inputAlphabeth cypherAlphabeth key
 
 ```
-$ ./vigenereCypherEncripter.exe abcdefghijklmnopqrstuvwxyz ZYXWVUTSRQPONMLKJIHGFEDCBA cryptolus
+$ ./vigenereCypherEncrypter.exe abcdefghijklmnopqrstuvwxyz ZYXWVUTSRQPONMLKJIHGFEDCBA cryptolus
 |vigenereCypherEncrypter by jjackbauer @https://github.com/jjackbauer/cryptoplusplus|
 
 ?>this is a test message
